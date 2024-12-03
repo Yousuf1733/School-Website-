@@ -83,7 +83,7 @@
 }
 .column{
     display: flex;
-    flex-direction: column;
+    /* flex-di  rection: column; */
     /* justify-content: space-between; */
 
 }
@@ -94,7 +94,7 @@
 
 .about-col img {
     border-radius: 5px;
-    width: 100%;
+    width: 95%;
     margin-bottom: 50px;
     margin-left: 100px;
 }
@@ -102,6 +102,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    margin-top: 50px ;
 }
 .container .dis{
     margin-bottom: 80px;
@@ -206,7 +207,11 @@
         margin-bottom: 20px;
         width: 100%;
     }
+    .about-col .nir{
+        height: auto;
+    }
 }
+
 
 
 
